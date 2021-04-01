@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class ArmstrongNumber {
 
 	public static void main(String[] args) {
-		Scanner s=new Scanner(System.in);
+		Scanner ss=new Scanner(System.in);
 		System.out.println("Enter the value");
-		int number=s.nextInt();
+		int number=ss.nextInt();
 		int sum=0;
 		int old_number=number;
 		
